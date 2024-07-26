@@ -1,0 +1,67 @@
+h1{
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: black;
+  -webkit-animation: fill 0.5s infinite alternate;
+}
+@-webkit-keyframes fill {
+  from{-webkit-text-fill-color: black}
+  to{-webkit-text-fill-color: white}
+}
+
+.browse-btn{
+  background: #E74040;
+}
+.custom-shape-divider-bottom-1721979208 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1721979208 svg {
+  position: relative;
+  display: block;
+  width: calc(146% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-bottom-1721979208 .shape-fill {
+  fill: #FFFFFF;
+}
+.circle{
+  background-color: #E74040;
+}
+
+section {
+  overflow: hidden;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.md\\:px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.md\\:py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
